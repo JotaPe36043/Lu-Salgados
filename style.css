@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --sidebar-color: #2A2B2E;
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+aside{
+    width: 15%;
+    height: 100%;
+    background-color:var(--sidebar-color);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+aside header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside header img{
+    width: 50%;
+}
