@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url(sidebar.css);
+@import url(sidebar-button.css);
+@import url(section.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --sidebar-color: #2A2B2E;
+}
+
+body{
+    height: 100vh;
+}
+
+@media screen and (max-width:768px){
+    .aside{
+        left: -100%;
+        transition: .6s;
+    }
+    
+    section{
+        margin-left: 0;
+    }
+    .sidebar-button{
+        display: inline-block;
+    }
+    
+    .aside.active {
+        transition: .6s;
+        left: 0;
+    }
+
+    .button{
+        flex-direction: column;
+    }
+
+}
