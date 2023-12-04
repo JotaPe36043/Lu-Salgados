@@ -1,31 +1,3 @@
-section{
-    display: flex;
-    justify-content: center;
-    margin-left: 300px;
-}
-
-main{
-    max-width: 1200px;
-    width: 100%;
-    height: 100vh;
-}
-
-.titulo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 60px 10px 35px 10px;
-}
-
-.titulo h1{
-    color: #F49E13;
-    font-family: Open Sans;
-    font-size: 35px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 28px; /* 87.5% */
-}
-
 .produtos{
     display: flex;
     flex-wrap: wrap;
@@ -53,7 +25,6 @@ main{
 
 .item-salgado h2{
     color: #F49E13;
-    font-family: Open Sans;
     font-size: 22px;
     font-style: normal;
     font-weight: 600;
@@ -62,7 +33,6 @@ main{
 
 .item-salgado h3{
     color: #27C34A;
-    font-family: Open Sans;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -72,7 +42,6 @@ main{
 .item-salgado p{
     color: #000;
     text-align: justify;
-    font-family: Open Sans;
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -89,6 +58,15 @@ main{
     align-self: end;
     margin: 5px;
     transition: all .3s;
+}
+
+.button-cadastro a{
+    text-decoration: none;
+    color: #fff;
+    background: #F49E13;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
 
 

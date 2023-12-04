@@ -1,0 +1,51 @@
+.area-principal{
+    min-width: 1000px;
+    padding: 70px;
+}
+
+.area-principal h2{
+    margin: 0 10px;
+}
+
+input{
+    align-self: center;
+    margin-bottom: 30px;
+    height: 40px;
+    font-size: 22px;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.same-line{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+#nome-area{
+    flex: 2;
+}
+
+#preco-area{
+    flex: 1;
+}
+
+#nome{
+    width: 100%;
+}
+
+.image-area{
+    min-height: 200px;
+    min-width: 300px;
+    border: 2px solid;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+#preview{
+    max-width: 400px;
+    max-height: 300px;
+}

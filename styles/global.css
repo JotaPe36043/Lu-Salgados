@@ -3,6 +3,7 @@
 @import url(sidebar.css);
 @import url(sidebar-button.css);
 @import url(section.css);
+@import url(cadastro.css);
 
 *{
     box-sizing: border-box;
@@ -16,6 +17,37 @@
 
 body{
     height: 100vh;
+    font-family: Open Sans;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+}
+
+main{
+    max-width: 1200px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 10px 35px 10px;
+}
+
+.titulo h1{
+    color: #F49E13;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 28px; /* 87.5% */
 }
 
 @media screen and (max-width:768px){
