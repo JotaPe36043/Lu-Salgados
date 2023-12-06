@@ -1,12 +1,31 @@
 .area-principal{
     min-width: 1000px;
-    padding: 70px;
+    padding: 0 70px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .area-principal h2{
     margin: 0 10px;
 }
 
+#return{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #000;
+    width: 120px;
+    height: 40px;
+    align-self: end;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+textarea,
 input{
     align-self: center;
     margin-bottom: 30px;
@@ -14,6 +33,18 @@ input{
     font-size: 22px;
     padding: 0 10px;
     border-radius: 10px;
+    border: 2px solid #000;
+}
+
+input[type=text]{
+    width: 100%;
+}
+
+textarea{
+    resize: none;
+    height: 180px;
+    width: 100%;
+    padding: 10px;
 }
 
 .same-line{
@@ -29,14 +60,10 @@ input{
 #preco-area{
     flex: 1;
 }
-
-#nome{
-    width: 100%;
-}
-
 .image-area{
     min-height: 200px;
     min-width: 300px;
+    padding: 10px;
     border: 2px solid;
     margin-bottom: 15px;
     display: flex;
@@ -48,4 +75,34 @@ input{
 #preview{
     max-width: 400px;
     max-height: 300px;
+}
+
+#imagem{
+    border: none;
+    border-radius: 0;
+    width: 185px;
+    margin-bottom: 30px;
+
+}
+input[type=file]::file-selector-button{
+    border-radius: 10px;
+    background-color: #F49E13;
+    color: #fff;
+    border: none;
+    padding: 5px;
+}
+
+button{
+    width: 500px;
+    height: 50px;
+    align-self: center;
+    border-radius: 10px;
+    font-size: 26px;
+    background-color: #DE7721;
+    color: #fff;
+    transition: all .3s;
+}
+
+button:hover{
+    transform: scale(1.05);
 }

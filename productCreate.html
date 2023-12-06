@@ -56,6 +56,7 @@
                 <h1>Cadastro de Produtos</h1>
             </div>
             <div class="area-principal">
+                <a href="index.html" id="return">Retornar</a>
                 <div class="same-line">
                     <div class="input-area" id="nome-area">
                         <h2>Nome</h2>
@@ -63,13 +64,19 @@
                     </div>
                     <div class="input-area" id="preco-area">
                         <h2>Preço</h2>
-                        <input type="number" id="preco">
+                        <input type="number" id="preco" step=".01">
                     </div>
                 </div>
+                <div class="input-area" id="preco-area">
+                    <h2>Descrição</h2>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <h2 style="align-self: center;">Imagem</h2>
                 <div class="image-area">
                     <img src="" id="preview">
                 </div>
-                <input type="file" id="imagem" name="imagem" accept="image/*" onchange="exibirPreview(this)">
+                <input type="file" id="imagem" accept="image/*" onchange="exibirPreview(this)">
+                <button>Salvar Produto</button>
             </div>
         </main>
     </section>
